@@ -1,0 +1,31 @@
+html {
+  color: #ffffff;
+  font-family: 'Menlo', monospace;
+  background-color: #282828;
+}
+
+a {
+  color: #ffffff;
+}
+
+a:hover {
+  color: #dddddd;
+}
+
+a:visited {
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
